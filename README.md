@@ -81,3 +81,40 @@ This will start a local development server on `http://localhost:5000`.
     "email": "janedoe@example.com"
 }
 ```
+### Update a User
+
+**Request:**
+
+`PUT /user/<user_id>`
+
+**Payload:**
+
+```json
+{
+    "name": "Jane Doe Updated",
+    "age": 26,
+    "email": "janeupdated@example.com"
+}
+```
+
+**Response:**
+
+```json
+{
+    "message": "User updated successfully"
+}
+```
+
+### Delete a User
+
+**Request:**
+
+`DELETE /user/<user_id>`
+
+**Response:**
+
+```json
+{
+    "message": "User deleted successfully"
+}
+```
