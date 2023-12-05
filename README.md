@@ -81,13 +81,3 @@ This will start a local development server on `http://localhost:5000`.
     "email": "janedoe@example.com"
 }
 ```
-
-... _Include similar sections for UPDATE and DELETE operations._
-
-## Contributing
-
-Contributions to the OOP-DEV project are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
